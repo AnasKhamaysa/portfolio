@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="The personalized resume that contains everything you need to know to get hired.">
+  <title>ANAS A A KHAMAYSA | Resume</title>
+  <link rel="shortcut icon" href="anas3.ico">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="profile">
+      <img src="anas.jpg" alt="Picture for ANAS A A KHAMAYSA">
+      <h1>ANAS A A KHAMAYSA</h1>
+      <p>Web Developer | Designer | Programmer | Database Developer</p>
+      <button id="themeToggle">🌞</button>
+    </div>
+    <nav>
+      <ul>
+        <li><button data-target="about">About</button></li>
+        <li><button data-target="experience">Experience</button></li>
+        <li><button data-target="projects">Projects</button></li>
+        <li><button data-target="skills">Skills</button></li>
+        <li><button data-target="Find-Me">Find Me</button></li>
+        <li><button data-target="contact">Contact</button></li>
+      </ul>
+      <button class="btn-download" id="downcv">Download CV</button></li>
+    </nav>
+  </aside>
+
+  <main class="content">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am 20 years old, I am studying Computer Engineering in Karabuk university, and my GPA is 3.69, and I have a very good experience in programming and Developing.</p>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <ul class="experienceList">
+        <li><strong>Tafouh Secondary School (2017-2022)</strong> – I studied the most important stages of education in this school and graduated with a grade of 94%. Throughout my studies, my only interest was to complete my life working on computers, and this is what helped me choose my university major.</li>
+        <li><strong>Karabuk university (2022-2027)</strong> – I have a Bachelor's degree in Computer Engineering, graduated from university with a GPA of 3.59, and participated in many events related to cyber security.</li>
+        <li><strong>PARAZONE Database Engineer (2028-2034)</strong> - Leading a team of 7 people in creating a secure database for use by multiple clients across the internet.</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <nav class="projectDow">
+        <ul>
+          <li><button id="database">Database</button></li>
+          <li><button id="htmlweb">HTML Website</button></li>
+          <li><button id="cssweb">HTML/CSS Website</button></li>
+          <li><button id="phppro">PHP Project</button></li>
+          <li><button id="jsweb">HTML/CSS/JAVASCRIPT</button></li>
+        </ul>
+      </nav>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div id="skillsContainer" class="skills-box"></div>
+    </section>
+
+    <section id="Find-Me">
+      <h2>Find Me Here</h2>
+      <nav class="projectDow">
+        <ul>
+          <li><button>+905058539675</button></li>
+          <li><button>anas34592@gmail.com</button></li>
+          <li><button id="myfacebook">Facebook</button></li>
+        </ul>
+      </nav>
+    </section>
+
+    <section id="contact">
+      <h2>Or Contact Me</h2>
+      <form id="contactForm" action="https://2210213581.free.nf/contact.php" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+        <p id="formStatus"></p>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
