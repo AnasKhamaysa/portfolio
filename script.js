@@ -14,7 +14,7 @@ document.querySelectorAll("nav button").forEach(button => {
   });
 });
 
-const skills = ["Object oriented programming in JAVA", "HTML", "CSS", "JavaScript", "PHP", "C/C++", "Problem solving", "MySQL"];
+const skills = ["Object oriented programming in JAVA", "HTML", "CSS", "JavaScript", "PHP", "C/C++", "Problem solving", "MySQL", "WFA .NET C#"];
 const skillsContainer = document.getElementById("skillsContainer");
 
 skills.forEach(skill => {
